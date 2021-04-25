@@ -14,4 +14,4 @@ xlapp.Run('MacroName')
 excel.Close(True)  #  True关闭该文件并保存;False不保存并关闭工作簿
 xlapp.Quit()  # 关闭 excel操作环境
 copy = pd.read_excel('C:/Users/Desktop/**A**.xlsm')
-shutil.copy('C:/Users/Desktop/**A**.xlsm','C:/Users/cn211183/Desktop/new'+now_time+'.xlsm')
+shutil.copy('C:/Users/Desktop/**A**.xlsm','C:/Users/Desktop/new'+now_time+'.xlsm')
